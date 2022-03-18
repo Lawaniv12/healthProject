@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultant Dashboard</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+  </head>
+  <body>
+    <!-- MAIN SECTION BEGINS HERE -->
+    <main>
+      <div class="container">
+        <!-- LEFT SECTION -->
+        <aside>
+          <div class="top">
+            <div class="logo">
+              <a href="../index.html" class="anchor">
+                <img src="/img/consultantDashboard/moonlite.svg" alt="">
+              <h3 class="font4">HEALTH LITE</h3>
+            </a>
+            </div>
+            <div class="close" id="close-btn">
+              <img src="/img/consultantDashboard/icons8-close.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="sidebar">
+            <a href="" class="anchor active">
+              <span
+                ><img src="/img/consultantDashboard/dashboard.svg" alt=""
+              /></span>
+              <h3>Dashboard</h3>
+            </a>
+            <a href="" class="anchor">
+              <span
+                ><img src="/img/consultantDashboard/3. ideas.svg" alt=""
+              /></span>
+              <h3>Waiting Room</h3>
+            </a>
+            <a href="../html/schedule.html" class="anchor">
+              <span
+                ><img src="/img/consultantDashboard/schedule.svg" alt=""
+              /></span>
+              <h3>Schedule</h3>
+            </a>
+            <a href="" class="anchor">
+              <span
+                ><img src="/img/consultantDashboard/mypatients.svg" alt=""
+              /></span>
+              <h3>My Patients</h3>
+            </a>
+            <a href="" class="anchor">
+              <span
+                ><img
+                  src="/img/consultantDashboard/fa-solid_sticky-note.svg"
+                  alt=""
+              /></span>
+              <h3>Notes</h3>
+            </a>
+            <a href="" class="anchor">
+              <span
+                ><img
+                  src="/img/consultantDashboard/bi_chat-right-text-fill.svg"
+                  alt=""
+              /></span>
+              <h3>Chats</h3>
+            </a>
+          </div>
+          <div class="side_bro">
+            <a href="" class="anchor">
+              <span
+                ><img src="/img/consultantDashboard/my profile.svg" alt=""
+              /></span>
+              <h3>My Profile</h3>
+            </a>
+            <a href="" class="anchor">
+              <span
+                ><img src="/img/consultantDashboard/settings.svg" alt=""
+              /></span>
+              <h3>Settings</h3>
+            </a>
+          </div>
+        </aside>
+
+        <!-- END OF LEFT CONTAINER -->
+
+        <!-- BEGINNING OF MIDDLE CONTAINER -->
+
+        <div class="midle-sect mrg-top">
+          <!-- DASHBOARD WELCOME SECTION -->
+          <div class="welcome mrg-top">
+            <div class="board father">
+              <div class="set_pg2 spc">
+                <div class="span12cl">
+                  <h1>Welcome, Dr Fayemi</h1>
+                  <p>
+                    You have <span id="schedule_appoint">0</span> new appointments and there are currently <span id="waiting">0</span>
+                    <br />
+                    patients in the waiting room. Have a nice day at work!
+                  </p>
+                  <br />
+                </div>
+                <div class="span5cl">
+                  <a href="" class="btn-tertiary">
+                    <small class="font4">
+                      <img
+                        src="/img/consultantDashboard/ant-design_eye-filled.svg"
+                        alt=""
+                      />
+                      View Your Appointments</small
+                    >
+                  </a>
+                </div>
+                <div class="span1cl"></div>
+                <div class="span5cl">
+                  <a href="" class="btn-tertiary">
+                    <small class="font4">
+                      Go to your waiting room
+                      <img src="/img/consultantDashboard/Union.svg" alt=""
+                    /></small>
+                  </a>
+                </div>
+              </div>
+              <div class="character">
+                <img src="/img/consultantDashboard/character 2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- END OF WELCOME SECTION -->
+
+          <!-- CARDS SECTION -->
+
+          <div class="cards">
+            <div class="total_Patients">
+              <div class="upsect">
+                <div>
+                  <img src="/img/consultantDashboard/patients.svg" alt="" />
+                </div>
+                <div class="flx">
+                  <h4>All time</h4>
+                  <img src="/img/consultantDashboard/arrowdown (2).svg" alt="" />
+                </div>
+              </div>
+
+              <div>
+                <h2 class="font" id="total">0</h2>
+                <p class="subtitle font4">Total Patients</p>
+              </div>
+              <div>
+                <img src="/img/consultantDashboard/arrowdown (2).svg" alt="" />
+                <small>5% less than last month</small>
+              </div>
+            </div>
+
+            <div class="appointments">
+              <div class="upsect">
+                <div>
+                  <img src="/img/consultantDashboard/appointments.svg" alt="" />
+                </div>
+
+                <div class="flx">
+                  <h4>All time</h4>
+                  <img src="/img/consultantDashboard/arrowdown (2).svg" alt="" />
+                </div>
+              </div>
+
+              <div>
+                <h2 class ="font" id="appoint">0</h2>
+                <p class="subtitle font4">Appointments</p>
+              </div>
+              <div>
+                <img src="/img/consultantDashboard/reddown.svg" alt="" />
+                <small>15% more than last month</small>
+              </div>
+            </div>
+           
+            <div class="waiting_room">
+              <div class="upsect">
+                <div>
+                  <img src="/img/consultantDashboard/waiting room.svg" alt="" />
+                </div>
+
+                <div class="flx">
+                  <h4>All time</h4>
+                  <img src="/img/consultantDashboard/arrowdown (2).svg" alt="" />
+                </div>
+              </div>
+              <div>
+                <h2 class="font" id="appoint">0</h2>
+                <p class="subtitle font4">Waiting Room</p>
+              </div>
+              <div>
+                <img src="/img/consultantDashboard/reddown.svg" alt="" />
+                <small>5% less than last month</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- END OF CARDS SESSION -->
+
+          <!-- BEGINNING OF PATIENTS SECTION -->
+
+          <div class="next_patients">
+            <div class="calm">
+              <div class="flx upsect pd">
+                <div class="">
+                  <h3 class="font4 main">Your Next Patients</h3>
+                  <img
+                    src="/img/consultantDashboard/straight shape.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="flx">
+                  <small>View All</small
+                  ><img src="img/consultantDashboard/Union.svg" alt="" />
+                </div>
+              </div>
+              
+               <div class="patients-data" id="patients_apnt">
+               
+              </div>
+              
+            </div>
+            
+          </div>
+
+          <div class="appnt">
+            <img src="/img/consultantDashboard/appointmnets frame.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- END OF MAIN SECTION -->
+
+        <!-- RIGHT SECTION -->
+        <div class="right">
+          <div class="top">
+            <button class="button" id="menu-btn">
+              <img src="/img/consultantDashboard/1x/menu.svg" alt="" />
+            </button>
+            
+            <div class="profile">
+              <div>
+                <img
+                  src="/img/consultantDashboard/bell&notification.svg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img src="/img/consultantDashboard/Ellipse 2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="right_updates mrg-top">
+            <div class="frame">
+              <img src="/img/consultantDashboard/Frame 30748.svg" alt="" />
+            </div>
+            <div class="frame">
+              <img src="/img/consultantDashboard/Frame 30750.svg" alt="" />
+            </div>
+            <div>
+              <div class="flx upsect">
+                <div>
+                  <h3 class="font4 main">Activities</h3>
+                  <div class="bar"></div>
+                </div>
+                  <div>
+                    <img src="/img/consultantDashboard/Frame-bell.svg" alt="" />
+                  </div>
+                </div>
+                  <div id="inter" >
+                    <div></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <script>
+    const sideMenu = document.querySelector("aside");
+      const menuBtn = document.querySelector("#menu-btn");
+      const closeBtn = document.querySelector("#close-btn");
+      
+      menuBtn.addEventListener('click', () => {
+        sideMenu.style.display = "block";
+      })
+      
+      closeBtn.addEventListener('click', () => {
+        sideMenu.style.display = "none"
+      })
+      </script>
+      <script src="/js/consultant.js"></script>
+  </body>
+</html>
