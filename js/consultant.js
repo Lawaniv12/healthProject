@@ -9,7 +9,6 @@ let waiting = document.getElementById('waiting')
 console.log(appointment)
 
 
-let details;
 const url1 = 'https://hy-mail-server.herokuapp.com/patients'
 
 fetch(url1)
@@ -70,7 +69,7 @@ fetch(url1)
         total.innerHTML = data.totalPatients
     })
 
-let list;
+
 const url = 'https://hy-mail-server.herokuapp.com/activities'
 
 

@@ -12,28 +12,4 @@ closeBtn.addEventListener('click', () => {
 })
 
 
-// fetch('https://hy-mail-server.herokuapp.com/patients')
-//   .then(res => res.json())
-//   .then(data => {
-//     let appointments = data.appointments
-//     appointments.forEach(element => {
-//       console.log(element)
-//     biza.innerHTML += `
-//     <div class="patients-data">
-//     <div>
-//       <p>09:00am</p>
-//     </div>
-//     <div class="details">
-//       <div class="flx">
-//         <img src="../img/consultantDashboard/guy hawkins.svg" alt="" />
-//         <p class="subtitle font">${element.name}</p>
-//       </div>
-//       <div class="pd-right">
-//         <img src="img/consultantDashboard/others.svg" alt="" />
-//       </div>
-//     </div>
-//     </div>
-//     `
-//     });
-//   })
 
