@@ -434,6 +434,10 @@ nav {
   border-bottom: 1.25rem solid var(--color-white);
 
 }
+.push{
+  position: relative;
+  top: -30px;
+}
 
 .close{
   display: none;
