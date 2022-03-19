@@ -1148,9 +1148,7 @@ nav {
     display: none;
   }
   .clients-info{
-    width: 90%;
-    position: relative;
-    left: -40px;
+    
   }
   
   @keyframes showMenu{
