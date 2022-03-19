@@ -38,6 +38,7 @@
   --box-shadow: 0 2rem 3rem var(--color-cars);
 }
 
+
 body {
   font-family: 'poppins', sans-serif;
   color: var(--color-dark);
@@ -208,6 +209,10 @@ font-weight: 700;
 }
 .fiftyprc{
   height: 50%;
+}
+.grdrow-form{
+  display: grid;
+  grid-template-rows: 70% 15% 15%;
 }
 /* .hd-Img{
   text-align: center;
@@ -795,7 +800,7 @@ nav {
         flex-direction: column;
     }
     .navlinks .navbar-list{
-      display: block;
+      /* display: block; */
   }
   .navbar-list
   {
@@ -804,9 +809,9 @@ nav {
       height: 26rem;
       width: 150px;
       top: 0;
-      right: -200px;
+      right: 0;
       text-align: left;
-      display: block;
+      display: none;
       z-index: 2;
       color: var(--color-primary); 
       padding: 20px;
@@ -1250,5 +1255,18 @@ nav {
   .md-sps{
     margin-top: 30px;
   }
- 
+  .mrg-md {
+    margin-top: 1.2rem !important;
+  }
+  .push{
+    position: relative;
+    top: 0.4rem;
+
+  }
+  .md-centr{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+  }
 }

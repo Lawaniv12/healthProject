@@ -174,7 +174,7 @@ box-shadow: var(--box-shadow);
     font-size: 1.4rem;
   }
   .navlinks .navbar-list{
-      display: block;
+      /* display: block; */
   }
   .navbar-list
   {
@@ -183,9 +183,9 @@ box-shadow: var(--box-shadow);
       height: 100%;
       width: 150px;
       top: 0;
-      right: -200px;
+      right: 0;
       text-align: left;
-      display: block;
+      display: none;
       z-index: 2;
       color: var(--color-primary); 
       padding: 20px;
