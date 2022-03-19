@@ -185,9 +185,7 @@ aside .sidebar a.active span{
   color: white;
 }
 
-.board{
-  
-}
+
 .character{
   position: absolute;
   right: 10px;
@@ -288,9 +286,7 @@ aside .sidebar a.active span{
 .calm{
   margin: 1rem auto;
 }
-.details{
-  
-}
+
 .right_updates{
   margin-right: 10px;
 
@@ -583,9 +579,7 @@ MEDIA QUERIES FOR TABS AND SMALL LAPTOPS*/
    border-radius: 2px;
    border: 0.2px solid white;
  }
- .frame{
-   display: none;
- }
+
  .right_updates{
    display: block;
  }

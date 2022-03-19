@@ -217,15 +217,7 @@ box-shadow: var(--box-shadow);
     margin: 1rem auto;
     /* background: var(--color-light); */
   }
-  .row{
-      flex-direction: column;
-  }
-  .menu-img1{
-      height: 100%;
-      width: 100%;
-  }
-
-
+ 
   .set_pg{
     display: inline-block;
     margin: auto;

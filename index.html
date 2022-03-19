@@ -19,10 +19,11 @@
           <h1 class="head-text pr-cl">HEALTCARE.</h1>
         </a>
       </div>
-      <div class="navbar-list" id="navList">
-        <div class="close" id="close-btn" onclick="hideMenu()"> <img src="/img/consultantDashboard/icons8-close.svg" alt="">
-       </div>
-        <div class="navbar-list">
+        
+        <div class="navbar-list" id="navList">
+          <div class="close" id="close-btn" onclick="hideMenu()">
+            <img src="/img/consultantDashboard/icons8-close.svg" alt="" />
+          </div>
         <div class="navbar-item">
           <a href="index.html" class="navbar-link actv-link">Home</a>
         </div>
@@ -39,10 +40,12 @@
           <a href="html/consultdashboard.html" class="btn btn-primary">Get Started</a>
         </div>
         </div>
+        <button class="menu-bttn" id="menu-btn" onclick="showMenu()">
+          <img src="/img/consultantDashboard/1x/menu.svg" alt="" />
+        </button>
       </div>
-      <button class ="menu-bttn" id="menu-btn" onclick="showMenu()">
-      <img src="/img/consultantDashboard/1x/menu.svg" alt="">
-      </button>
+
+      
     </div>
     </nav>
 
@@ -57,12 +60,12 @@
           <p class="muted-text md_font1">Join us and take care of yourself and your family with
             health services that <br> will make you feel confident and safe in your daily life
           </p>
-          <a class="btn btn-primary" for="create-post"> Book Appointment <img src="/img/headArrow.svg" alt="">
+          <a class="btn btn-primary" for="create-post"><div class="md_font2">Book Appointment</div><img src="/img/headArrow.svg" alt="">
           </a>
         </div>
         <div class="complx span6cl">
           <div class ="hd-Img" style="margin-bottom: -6px;">
-            <img src="img/headerDoc.svg">
+            <img src="/img/headDocpng.png">
           </div>
         </div>
       </div>
@@ -79,21 +82,23 @@
         <h1 class="head-text mrg-bot rob-Fam set-pg-md12">3 Easy Steps and get Your Solutions</h1>
         </div>
         <div class="span4cl center-t set-pg-md06">
-          <div class="search-dspl ">
+          <span class="search-dspl">
             <img src="img/search-3711861-3105214 1.svg" alt="">
-          </div>
+          </span>
           <h4 class="font5">Find Best Doctor</h4>
           <p class="muted-text">Find your doctor easily with a minimum of effort. <br> We've kept everything organized for you
           </p>
         </div>
-        <div class="span4cl center-t  set-pg-md06">
-          <div class="calend-dspl"><img src="img/calendar-3543016-2969403 1.svg"></div>
+        <div class="span4cl center-t set-pg-md06">
+          <span class="calend-dspl"><img src="img/calendar-3543016-2969403 1.svg"></span>
           <h4 class="font5">Get Appointment</h4>
           <p class="muted-text">Find your doctor easily with a minimum of effort. <br> We've kept everything organized for you
           </p>
         </div>
         <div class="span4cl center-t set-pg-md12">
-          <div class="phn-dspl"><span><img src="/img/online-healthcare-app-3856289-3212453 1.png" alt=""></span></div>
+          <span class="phn-dspl">
+            <img src="/img/online-healthcare-app-3856289-3212453 1.png" alt="">
+          </span>
           <h4 class="font5">Happy Consultations</h4>
           <p class="muted-text">Find your doctor easily with a minimum of effort. <br> We've kept everything organized for you
           </p>
@@ -107,7 +112,7 @@
         <div class = "span2cl"></div>
         <div class="span5cl tbDoc set-pg-md12 ">
             <div>
-              <h1 class="head-text mrg-top set-pg-md12 md-btn">Best Quality services with our experience doctors</h1>
+              <h1 class="head-text mrg-top set-pg-md12 md-btn md-sps">Best Quality services with our experience doctors</h1>
             </div>
             <div>
               <p class="muted-text">With our Doctors, we are able to provide best medical services
@@ -301,7 +306,7 @@
         <div class="left-nav span1cl">
           <img src="img/Nav icon (1).svg">
         </div>
-          <div class="clients-info span3cl md-ds onlDctrs pd father mrg-bot set-pg-md09 mrg-md rg-mdtp">
+          <div class="clients-info span3cl md-ds onlDctrs pd father mrg-bot set-pg-md09 mrg-md rg-mdtp ">
             <div class="abs"><img src="img/Quote.png" alt=""></div>
             <div class="center-t">
               <img src="img/bg (1).svg" alt="">
@@ -317,6 +322,7 @@
             <div class="center-t">
               <img src="img/bg (2).svg" alt="">
             </div>
+
             <div>
               <h3 class="font5">Alex Maxwell</h3>
               <small class="colSm">New York, America USA</small>
@@ -356,8 +362,8 @@
         </h1>
         </div>
         <div class="pd-left pd">
-        <a href class="btn-secondary btn">
-          Book an Appointment
+        <a href class="btn-secondary">
+          <p class="font4">Book an Appointment</p>
         </a>
         </div>
       <div class="daughter">
@@ -427,9 +433,9 @@
         <div class="span9cl">
           <p>&copy;2021 Healthcare - All rights reserved.</p>
         </div>
-        <div class="span1cl">Privacy</div>
-        <div class="span1cl">Security</div>
-        <div class="span1cl">Terms</div>
+        <div class="span1cl"><p>Privacy</p></div>
+        <div class="span1cl"><p>Security</p></div>
+        <div class="span1cl"><p>Terms</p></div>
       </div>
     </div>
     </FOOTER>
@@ -442,6 +448,8 @@
    function hideMenu(){
      navList.style.display = "none"
    }
+
+
 </script>
 
 </html>

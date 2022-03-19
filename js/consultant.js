@@ -1,4 +1,3 @@
-let activity = document.getElementById('activity')
 let appointment = document.getElementById('patients_apnt')
 let appoint = document.getElementById('appoint')
 let wait = document.getElementById('wait')
@@ -9,7 +8,7 @@ let waiting = document.getElementById('waiting')
 console.log(appointment)
 
 
-const url1 = 'https://hy-mail-server.herokuapp.com/patients'
+const url1 = 'https://612b668c22bb490017893b1d.mockapi.io/health/v1/patients'
 
 fetch(url1)
     .then(response =>response.json())
@@ -70,7 +69,7 @@ fetch(url1)
     })
 
 
-const url = 'https://hy-mail-server.herokuapp.com/activities'
+const url = 'https://612b668c22bb490017893b1d.mockapi.io/health/v1/activites'
 
 
 
@@ -97,4 +96,8 @@ fetch(url)
                 `
             }
         }
+    })
+    .catch((err) => {
+        console.log(err);
+        inter.innerHTML =`<p style = "color: red"> Oops, you do not have connection to internet</p>`;
     })
