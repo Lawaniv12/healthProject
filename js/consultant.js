@@ -1,3 +1,4 @@
+let activity = document.getElementById('activity')
 let appointment = document.getElementById('patients_apnt')
 let appoint = document.getElementById('appoint')
 let wait = document.getElementById('wait')
